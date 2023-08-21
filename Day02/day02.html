@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Day 2</title>
+        <style>
+            marquee{
+                color: rgba(115, 0, 255, 0.855);
+                font-size: 50px;
+                font-family: cursive;
+                font-style: italic;       
+            }
+            img{
+                width: 200px;
+                margin: 100px;
+                border:0ric;
+                border-style:solid;
+                border-width: 10px;
+                border-radius: 10%;
+            }
+            body{
+                background-image: linear-gradient(white,gray);
+            }
+            .gen{
+                color: red !important;
+            }
+
+            #gender-m{
+                color: springgreen;
+            }
+            #pad{
+                width: 40%;
+                background-color: blueviolet;
+                padding: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <marquee direction="right">Mohd Nihal Khan</marquee>
+        <form action="mailto: nk5149741@gmail.com" method="POST">
+        Name:<br>
+        <input type="text" name="Name" placeholder="Enter Your Name" required>
+        <br><br>
+        Gender: <br>
+        <input type="radio" name="gender" value="male" id="gender-m">
+        <label for="gender-m" class="gen">Male</label> 
+        <input type="radio" name="gender" value="female" id="gender-f">
+        <label for="gender-f" class="gen">Female</label>
+        <br><br>
+        Skills:
+        <input type="checkbox" name="skills" id="skill1" value="HTML">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="skills" id="skill2" value="CSS">
+        <label for="skill2">CSS</label>
+        <input type="checkbox" name="skills" id="skill3" value="Java Scripr">
+        <label for="skill3">Java Script</label>
+        <br><br>
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+
+        <br>
+        <br>
+        List of Students:
+        <select name="List of Students" id="">
+            <option>--Select a Student--</option>
+            <option>Nihal</option>
+            <option selected>Umair</option>
+            <option>Qadir</option>
+            <option>Shahvez</option>
+            <option>Wasil</option>
+        </select>
+        <br>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.mKWPIJEtK-laenZT4aHGcQHaKc&pid=Api&P=0&h=180">
+        <div id="pad">
+            <p style="background-color: brown;">Nihal is very good boy</p>
+
+        </div>
+    </body>
+</html>
